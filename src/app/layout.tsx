@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import Script from 'next/script';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,7 +20,13 @@ export default function RootLayout({
       <body className={inter.className}>
         {children}
 
-        <script
+        {/* <script
+          id='drops-widget-script'
+          type='text/javascript'
+          data-drops-widget='https://althea.drops.house/create-entry?ext_id=Y2h4DRYki'
+          src='https://cdn.jsdelivr.net/gh/wondrous-dev/drops-widget@latest/entry-point.js'
+        /> */}
+        <Script
           id='drops-widget-script'
           type='text/javascript'
           data-drops-widget='https://althea.drops.house/create-entry?ext_id=Y2h4DRYki'
