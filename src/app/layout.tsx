@@ -30,7 +30,7 @@ export default function RootLayout({
           id='drops-widget-script'
           type='text/javascript'
           data-drops-widget='https://althea.drops.house/create-entry?ext_id=Y2h4DRYki'
-          src='https://cdn.jsdelivr.net/gh/wondrous-dev/drops-widget@latest/entry-point.js'
+          src='https://cdn.jsdelivr.net/gh/wondrous-dev/drops-widget@latest/index.js'
         />
       </body>
     </html>
